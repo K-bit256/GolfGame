@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="idle.png">
+<SubTexture name="idle idle0000" x="331" y="0" width="420" height="499" frameX="-261" frameY="-486" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="idle idle0001" x="0" y="0" width="331" height="576" frameX="-325" frameY="-400" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="idle idle0002" x="1039" y="0" width="405" height="489" frameX="-299" frameY="-476" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="idle idle0003" x="605" y="576" width="497" height="462" frameX="-280" frameY="-503" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="idle idle0004" x="1444" y="0" width="513" height="462" frameX="-286" frameY="-503" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="idle idle0005" x="1444" y="462" width="479" height="457" frameX="-305" frameY="-507" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="idle idle0006" x="305" y="576" width="300" height="463" frameX="-383" frameY="-516" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="idle idle0007" x="751" y="0" width="288" height="495" frameX="-396" frameY="-513" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="idle idle0008" x="0" y="576" width="305" height="485" frameX="-345" frameY="-511" frameWidth="1050" frameHeight="1080" />
+</TextureAtlas>

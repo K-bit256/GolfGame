@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="watercat.png">
+<SubTexture name="watercat watercat0000" x="269" y="138" width="269" height="138" frameX="-792" frameY="-559" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="watercat watercat0001" x="0" y="138" width="269" height="138" frameX="-792" frameY="-560" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="watercat watercat0002" x="269" y="0" width="269" height="138" frameX="-792" frameY="-559" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="watercat watercat0003" x="0" y="0" width="269" height="138" frameX="-792" frameY="-560" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="cheercat.png">
+<SubTexture name="cheercat cheercat0000" x="0" y="213" width="319" height="183" frameX="-779" frameY="-532" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="cheercat cheercat0001" x="0" y="0" width="339" height="213" frameX="-778" frameY="-502" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="cheercat cheercat0002" x="319" y="213" width="319" height="183" frameX="-822" frameY="-532" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="cheercat cheercat0003" x="339" y="0" width="339" height="213" frameX="-803" frameY="-502" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

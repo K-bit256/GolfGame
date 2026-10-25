@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="try.png">
+<SubTexture name="try try0000" x="0" y="0" width="880" height="880" frameX="0" frameY="0" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0001" x="0" y="0" width="880" height="880" frameX="0" frameY="0" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0002" x="0" y="1750" width="850" height="863" frameX="-17" frameY="-1" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0003" x="1695" y="880" width="853" height="866" frameX="-16" frameY="0" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0004" x="880" y="0" width="853" height="871" frameX="-16" frameY="0" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0005" x="1733" y="0" width="851" height="871" frameX="-17" frameY="0" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0006" x="0" y="880" width="849" height="870" frameX="-18" frameY="0" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0007" x="849" y="880" width="846" height="868" frameX="-19" frameY="0" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0008" x="2584" y="0" width="842" height="866" frameX="-21" frameY="0" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0009" x="2584" y="866" width="836" height="861" frameX="-24" frameY="-3" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0010" x="850" y="1750" width="829" height="853" frameX="-28" frameY="-7" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0011" x="1679" y="1750" width="818" height="841" frameX="-33" frameY="-13" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0012" x="2497" y="1750" width="804" height="827" frameX="-40" frameY="-20" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0013" x="0" y="2613" width="783" height="806" frameX="-50" frameY="-30" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0014" x="783" y="2613" width="752" height="774" frameX="-65" frameY="-46" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0015" x="1535" y="2613" width="696" height="717" frameX="-92" frameY="-74" frameWidth="880" frameHeight="880" />
+<SubTexture name="try try0016" x="3426" y="0" width="418" height="430" frameX="-227" frameY="-217" frameWidth="870" frameHeight="870" />
+<SubTexture name="try try0017" x="3426" y="430" width="418" height="430" frameX="-232" frameY="-222" frameWidth="870" frameHeight="870" />
+<SubTexture name="try try0018" x="2231" y="2613" width="418" height="431" frameX="-224" frameY="-207" frameWidth="870" frameHeight="870" />
+<SubTexture name="try try0019" x="2649" y="2613" width="419" height="431" frameX="-228" frameY="-226" frameWidth="870" frameHeight="870" />
+<SubTexture name="try try0020" x="3426" y="860" width="418" height="430" frameX="-225" frameY="-208" frameWidth="870" frameHeight="870" />
+<SubTexture name="try try0021" x="3426" y="1290" width="418" height="430" frameX="-237" frameY="-221" frameWidth="870" frameHeight="870" />
+<SubTexture name="try try0022" x="3426" y="1720" width="418" height="430" frameX="-222" frameY="-209" frameWidth="870" frameHeight="870" />
+<SubTexture name="try try0023" x="3426" y="0" width="418" height="430" frameX="-227" frameY="-217" frameWidth="870" frameHeight="870" />
+</TextureAtlas>

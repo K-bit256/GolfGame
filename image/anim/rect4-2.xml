@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rect4-2.png">
+<SubTexture name="rect4-2 rect4-20000" x="0" y="0" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20001" x="1733" y="0" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20002" x="0" y="1080" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20003" x="1733" y="1080" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20004" x="0" y="2160" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20005" x="1733" y="2160" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20006" x="3466" y="0" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20007" x="3466" y="1080" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20008" x="3466" y="2160" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20009" x="0" y="3240" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20010" x="1733" y="3240" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20011" x="3466" y="3240" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20012" x="5199" y="0" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20013" x="5199" y="1080" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect4-2 rect4-20014" x="5199" y="2160" width="1733" height="1080" frameX="-102" frameY="0" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

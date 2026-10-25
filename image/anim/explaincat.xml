@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="explaincat.png">
+<SubTexture name="explaincat explaincat0000" x="0" y="303" width="328" height="301" frameX="-514" frameY="-213" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="explaincat explaincat0001" x="318" y="0" width="322" height="302" frameX="-518" frameY="-217" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="explaincat explaincat0002" x="0" y="0" width="318" height="303" frameX="-526" frameY="-216" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="explaincat explaincat0003" x="318" y="0" width="322" height="302" frameX="-518" frameY="-217" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rect5-2.png">
+<SubTexture name="rect5-2 rect5-20000" x="0" y="0" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20001" x="1880" y="0" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20002" x="0" y="1080" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20003" x="1880" y="1080" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20004" x="0" y="2160" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20005" x="1880" y="2160" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20006" x="3760" y="0" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20007" x="3760" y="1080" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20008" x="3760" y="2160" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20009" x="0" y="3240" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20010" x="1880" y="3240" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20011" x="3760" y="3240" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20012" x="0" y="4320" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect5-2 rect5-20013" x="1880" y="4320" width="1880" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

@@ -1,0 +1,44 @@
+{
+  "images": {
+    "background": "",
+    "start": "image/easy/start.png",
+    "goal": "image/hard/goal.png",
+    "ground": "image/hard/grass.png",
+    "wall": "image/hard/wall.png",
+    "water": "image/hard/water.png"
+  },
+  "start": {
+    "x": 0,
+    "y": 550,
+    "width": 702,
+    "height": 388
+  },
+
+  "goal": {
+    "x": 5380,
+    "y": 610,
+    "radius": 50,
+    "width": 360,
+    "height": 406
+  },
+  "ground": {
+    "y": 880,
+    "height": 540
+  },
+  "obstacles": [
+    {
+      "type": "wall",
+      "x": 1000,
+      "y": 480,
+      "width": 247,
+      "height": 512
+    },
+    {
+      "type": "water",
+      "x": 2610,
+      "y": 810,
+      "width": 360,
+      "height": 210
+    }
+  ]
+}

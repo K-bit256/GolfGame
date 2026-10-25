@@ -1,0 +1,4122 @@
+{
+  "あ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 0, "width": 80, "height": 80
+    },"bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 160, "width": 80, "height": 80
+    },"animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "い": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "う": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "え": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "お": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "か": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "き": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "く": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "け": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "こ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "さ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "し": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "す": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "せ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "そ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "た": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ち": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "つ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "て": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "と": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "な": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "に": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぬ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ね": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "の": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "は": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y":240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "ひ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ふ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "へ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ほ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ま": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "み": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "む": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "め": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "も": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "や": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ゆ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "よ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ら": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "り": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "る": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "れ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ろ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "わ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "を": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ん": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "Y": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "Z": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+
+
+
+
+
+
+  "ア": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "イ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "ウ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "エ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "オ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "カ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "キ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ク": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ケ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "コ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "サ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "シ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ス": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "セ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ソ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "タ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "チ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ツ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "テ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ト": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ナ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ニ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ヌ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ネ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+
+
+
+  "ノ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "ハ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y":560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "ヒ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "フ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "ヘ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ホ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "マ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ミ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ム": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "メ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "モ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ヤ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ユ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ヨ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ラ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "リ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ル": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "レ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ロ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ワ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ヲ": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ン": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "y": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "z": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+
+
+
+
+"A": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "B": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y":720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "C": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "D": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "E": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "F": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "G": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "H": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "I": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "J": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "K": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "L": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "M": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "N": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "O": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "P": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "Q": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "R": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "S": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "T": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "U": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "V": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "W": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "X": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 640, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 720, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+
+
+
+
+
+  "a": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "b": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y":880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "c": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "d": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "e": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "f": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "g": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "h": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "i": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "j": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "k": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "l": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "m": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "n": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "o": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "p": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "q": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "r": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "s": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "t": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "u": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1600, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "v": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1680, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "w": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1760, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "x": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 800, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1840, "y": 880, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+
+  "0": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 0, "y": 960, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 800, "y": 960, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "1": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 80, "y": 960, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 880, "y":960, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "2": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 160, "y": 960, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 960, "y": 960, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "3": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 240, "y": 960, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1040, "y": 960, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "4": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 320, "y": 960, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1120, "y": 960, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "5": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 400, "y": 960, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1200, "y": 960, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "6": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 480, "y": 960, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1280, "y": 960, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "7": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 560, "y": 960, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1360, "y": 960, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "8": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 640, "y": 960, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1440, "y": 960, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "9": {
+    "idle": {
+      "sheet": "assets/images/font1.png",
+      "x": 720, "y": 960, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font1.png",
+      "x": 1520, "y": 960, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+
+
+
+
+
+  "が": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 0, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 0, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "ぎ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 80, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 80, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "ぐ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 160, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 160, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "げ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 240, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 240, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "ご": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 320, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 320, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ざ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 400, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 400, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "じ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 480, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 480, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ず": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 560, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 560, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぜ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 640, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 640, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぞ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 720, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 720, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "だ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 800, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 800, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぢ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 880, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 880, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "づ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 960, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 960, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "で": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1040, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1040, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ど": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1120, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1120, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ば": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1200, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1200, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "び": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1280, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1280, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぶ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1360, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1360, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "べ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1440, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1440, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぼ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1520, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1520, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぱ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1600, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1600, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぴ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1680, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1680, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぷ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1760, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1760, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぺ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1840, "y": 0, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1840, "y": 160, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+
+
+
+
+  "ぽ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 0, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 0, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "ぁ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 80, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 80, "y":240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "ぃ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 160, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 160, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぅ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 240, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 240, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "ぇ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 320, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 320, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ぉ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 400, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 400, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ゃ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 480, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 480, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ゅ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 560, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 560, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ょ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 640, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 640, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "っ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 720, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 720, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "ー": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 800, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 800, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "?": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 880, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 880, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "!": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 960, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 960, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "、": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1040, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1040, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "。": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1120, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1120, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "「": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1200, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1200, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "」": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1280, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1280, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "(": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1360, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1360, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    ")": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1440, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1440, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "←": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1520, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1520, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "↓": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1600, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1600, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "→": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1680, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1680, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "↑": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1760, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1760, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "~": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1840, "y": 80, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1840, "y": 240, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  ".": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 0, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 0, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "#": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 80, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 80, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "￥": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 160, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 160, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "/": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 240, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 240, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  ":": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 320, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 320, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    ";": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 400, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 400, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "'": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 480, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 480, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "”": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 560, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 560, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "[": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 640, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 640, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "]": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 720, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 720, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "{": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 800, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 800, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "}": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 880, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 880, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "@": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 960, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 960, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "_": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1040, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1040, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "&": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1120, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1120, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "+": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1200, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1200, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "○": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1280, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1280, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "×": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1360, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1360, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "<": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1440, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1440, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "=": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1520, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1520, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    ">": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1600, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1600, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "^": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1680, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1680, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "・": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1760, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1760, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "*": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1840, "y": 320, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1840, "y": 480, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+
+
+
+  "$": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 0, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 0, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "%": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 80, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 80, "y":560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    
+  "♡": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 160, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 160, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "☆": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 240, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 240, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  "℃": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 320, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 320, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "|": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 400, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 400, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "°": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 480, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 480, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "『": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 560, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 560, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "』": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 640, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 640, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "◎": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 720, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 720, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "※": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 800, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 800, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "♪": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 880, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 880, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+  " ": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 960, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 960, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  },
+    "_fallback": {
+    "idle": {
+      "sheet": "assets/images/font2.png",
+      "x": 1840, "y": 400, "width": 80, "height": 80
+    },
+    "bounce": {
+      "sheet": "assets/images/font2.png",
+      "x": 1840, "y": 560, "width": 80, "height": 80
+    },
+    "animations": {
+      "bounce": {
+        "frameDuration": 100,
+        "loop": true,
+        "sequence": ["idle", "bounce"]
+      }
+    }
+  }
+}

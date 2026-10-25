@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rect1-2.png">
+<SubTexture name="rect1-2 rect1-20000" x="1399" y="2012" width="1399" height="1004" frameX="-267" frameY="-38" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20001" x="2798" y="2012" width="1399" height="1004" frameX="-267" frameY="-38" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20002" x="0" y="3018" width="1399" height="1004" frameX="-267" frameY="-38" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20003" x="1399" y="3018" width="1399" height="1004" frameX="-267" frameY="-38" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20004" x="0" y="0" width="1399" height="1006" frameX="-267" frameY="-37" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20005" x="1399" y="0" width="1399" height="1006" frameX="-267" frameY="-37" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20006" x="0" y="1006" width="1399" height="1006" frameX="-267" frameY="-37" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20007" x="1399" y="1006" width="1399" height="1006" frameX="-267" frameY="-37" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20008" x="2798" y="3018" width="1399" height="1004" frameX="-267" frameY="-38" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20009" x="4197" y="0" width="1399" height="1004" frameX="-267" frameY="-38" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20010" x="4197" y="1004" width="1399" height="1004" frameX="-267" frameY="-38" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20011" x="4197" y="2008" width="1399" height="1004" frameX="-267" frameY="-38" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20012" x="2798" y="0" width="1399" height="1006" frameX="-267" frameY="-37" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20013" x="2798" y="1006" width="1399" height="1006" frameX="-267" frameY="-37" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect1-2 rect1-20014" x="0" y="2012" width="1399" height="1006" frameX="-267" frameY="-37" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

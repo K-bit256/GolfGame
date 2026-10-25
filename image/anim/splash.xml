@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="splash.png">
+<SubTexture name="splash splash0000" x="721" y="223" width="56" height="20" frameX="-72" frameY="-456" frameWidth="600" frameHeight="768" />
+<SubTexture name="splash splash0001" x="721" y="83" width="94" height="72" frameX="-53" frameY="-404" frameWidth="600" frameHeight="768" />
+<SubTexture name="splash splash0002" x="600" y="230" width="109" height="105" frameX="-47" frameY="-371" frameWidth="600" frameHeight="768" />
+<SubTexture name="splash splash0003" x="600" y="116" width="117" height="114" frameX="-42" frameY="-361" frameWidth="600" frameHeight="768" />
+<SubTexture name="splash splash0004" x="600" y="0" width="121" height="116" frameX="-36" frameY="-359" frameWidth="600" frameHeight="768" />
+<SubTexture name="splash splash0005" x="721" y="0" width="132" height="83" frameX="-33" frameY="-392" frameWidth="600" frameHeight="768" />
+<SubTexture name="splash splash0006" x="0" y="768" width="135" height="78" frameX="-31" frameY="-398" frameWidth="600" frameHeight="768" />
+<SubTexture name="splash splash0007" x="135" y="768" width="148" height="71" frameX="-20" frameY="-405" frameWidth="600" frameHeight="768" />
+<SubTexture name="splash splash0008" x="721" y="155" width="59" height="68" frameX="-77" frameY="-401" frameWidth="600" frameHeight="768" />
+<SubTexture name="splash splash0009" x="780" y="155" width="54" height="66" frameX="-77" frameY="-403" frameWidth="600" frameHeight="768" />
+<SubTexture name="splash splash0010" x="0" y="0" width="600" height="768" frameX="0" frameY="0" frameWidth="600" frameHeight="768" />
+</TextureAtlas>

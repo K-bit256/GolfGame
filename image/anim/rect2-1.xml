@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rect2-1.png">
+<SubTexture name="rect2-1 rect2-10000" x="1495" y="1080" width="1399" height="1005" frameX="-267" frameY="-38" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect2-1 rect2-10001" x="0" y="0" width="1478" height="1080" frameX="-228" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect2-1 rect2-10002" x="1478" y="0" width="1489" height="1080" frameX="-222" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="rect2-1 rect2-10003" x="0" y="1080" width="1495" height="1080" frameX="-219" frameY="0" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>
