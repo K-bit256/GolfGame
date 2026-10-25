@@ -1100,7 +1100,7 @@ void UpdateTHrowimg() {
         }
     }
 }
-/*   石藤
+/*   
 void UpdateTHrowimg() {
     if (waitTimer < 45) {
         waitTimer++;//待つ
