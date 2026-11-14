@@ -5,6 +5,8 @@
 #include <string>
 #include "tinyxml2.h"
 #include <math.h>
+#include <iostream>
+#include <windows.h>
 
 using json = nlohmann::json;
 using namespace tinyxml2;
@@ -15,7 +17,7 @@ struct Ball {
     float vx;
     float vy;
 
-    float v0 = 170;
+    float v0 = 150;
 
     bool moving;
 };
@@ -56,10 +58,14 @@ struct FontChar {
 std::map<std::string, FontChar> fontData;
 std::unordered_map<std::string, int> loadedSheets;
 
+HANDLE hSerial = INVALID_HANDLE_VALUE;
 
 Animation idleAnim;
+Animation idleAnim2;
 Animation readyAnim;
+Animation readyAnim2;
 Animation throwAnim;
+Animation throwAnim2;
 Animation gameBGAnim0;
 Animation gameBGAnim1;
 //Animation AnimItem0;
@@ -144,7 +150,11 @@ bool lakecount = false;
 bool boundcount = true;
 bool goalcount = false;
 bool back = false;
+bool throwMode = 0;
 float xbefor = 500;//x座標を記憶するための変数
+
+int speedmax = 0;
+int speed0 = 0;
 
 int angles[] = { -45, 0, 45 };
 int angleIndex = 1;
@@ -177,7 +187,10 @@ int GroundCoverImg;//不要
 int TemaeImg;
 int HaikeiImg;
 int BallImg;
+
 int bgmHandle;
+int splashHandle;
+
 int fontSheetHandle;
 
 int Explain1Img;
@@ -405,6 +418,7 @@ void LoadFontJson(const std::string& filename) {
         fontData[ch] = fc;
     }
 }
+//NW = 現在　　kn = 残り　　to = 投目
 void DrawBitmapString(int drawX, int drawY, const std::string& text) {
     int x = drawX;
 
@@ -424,11 +438,11 @@ void DrawBitmapString(int drawX, int drawY, const std::string& text) {
             continue;
         }
 
-        printfDx(
-            "found : %s handle=%d\n",
-            ch.c_str(),
-            it->second.handle
-        );
+        //printfDx(
+        //    "found : %s handle=%d\n",
+        //    ch.c_str(),
+        //    it->second.handle
+        //);
 
         FontChar& fc = it->second;
 
@@ -531,40 +545,56 @@ void DrawCharacter() {
 
         float scale = 0.7f;
 
+        DrawRectExtendGraph(
+            currentAnim->drawX - (int)(f.fw * scale / 2) - (int)(f.fx * scale) - ballx,
+            currentAnim->drawY - (int)(f.fh * scale / 2) - (int)(f.fy * scale),
 
-        if (back) {
-            DrawRectExtendGraph(
-                currentAnim->drawX - (int)(f.fw * scale / 2) - (int)(f.fx * scale) + (int)(f.w * scale) - ballx,
-                currentAnim->drawY - (int)(f.fh * scale / 2) - (int)(f.fy * scale),
+            currentAnim->drawX - (int)(f.fw * scale / 2) - (int)(f.fx * scale) + (int)(f.w * scale) - ballx,
+            currentAnim->drawY - (int)(f.fh * scale / 2) - (int)(f.fy * scale) + (int)(f.h * scale),
 
-                currentAnim->drawX - (int)(f.fw * scale / 2) - (int)(f.fx * scale) - ballx,
-                currentAnim->drawY - (int)(f.fh * scale / 2) - (int)(f.fy * scale) + (int)(f.h * scale),
-                f.x,
-                f.y,
-                f.w,
-                f.h,
+            f.x,
+            f.y,
+            f.w,
+            f.h,
 
-                currentAnim->imageHandle,
-                TRUE
-            );
-        }
-        else {
-            DrawRectExtendGraph(
-                currentAnim->drawX - (int)(f.fw * scale / 2) - (int)(f.fx * scale) - ballx,
-                currentAnim->drawY - (int)(f.fh * scale / 2) - (int)(f.fy * scale),
+            currentAnim->imageHandle,
+            TRUE
+        );
 
-                currentAnim->drawX - (int)(f.fw * scale / 2) - (int)(f.fx * scale) + (int)(f.w * scale) - ballx,
-                currentAnim->drawY - (int)(f.fh * scale / 2) - (int)(f.fy * scale) + (int)(f.h * scale),
+        //if (back){
+        //    DrawRectExtendGraph(
+        //        currentAnim->drawX - (int)(f.fw * scale / 2) - (int)(f.fx * scale) + (int)(f.w * scale) - ballx,
+        //        currentAnim->drawY - (int)(f.fh * scale / 2) - (int)(f.fy * scale),
+        //        
+        //        currentAnim->drawX - (int)(f.fw * scale / 2) - (int)(f.fx * scale) - ballx,
+        //        currentAnim->drawY - (int)(f.fh * scale / 2) - (int)(f.fy * scale) + (int)(f.h * scale),
 
-                f.x,
-                f.y,
-                f.w,
-                f.h,
+        //        f.x,
+        //        f.y,
+        //        f.w,
+        //        f.h,
 
-                currentAnim->imageHandle,
-                TRUE
-            );
-        }
+        //        currentAnim->imageHandle,
+        //        TRUE
+        //    );
+        //}
+        //else {
+        //    DrawRectExtendGraph(
+        //        currentAnim->drawX - (int)(f.fw * scale / 2) - (int)(f.fx * scale) - ballx,
+        //        currentAnim->drawY - (int)(f.fh * scale / 2) - (int)(f.fy * scale),
+
+        //        currentAnim->drawX - (int)(f.fw * scale / 2) - (int)(f.fx * scale) + (int)(f.w * scale) - ballx,
+        //        currentAnim->drawY - (int)(f.fh * scale / 2) - (int)(f.fy * scale) + (int)(f.h * scale),
+
+        //        f.x,
+        //        f.y,
+        //        f.w,
+        //        f.h,
+
+        //        currentAnim->imageHandle,
+        //        TRUE
+        //    );
+        //}
     }
 }
 void DrawAnimetion2() {
@@ -607,7 +637,7 @@ void DrawAnimetion3() {
             X = ball.x - 40;
         }
     }
-    printfDx("ball.x = %f\n", ball.x);
+    //printfDx("ball.x = %f\n",ball.x);
 
     if (!currentAnim3->frames.empty()) {
         Frame& f = currentAnim3->frames[currentFrame3];
@@ -743,11 +773,11 @@ void DrawCourseSelect() {
         //courseLength = courseLength + currentCourse.start.x + 400;//ゴールの画像の幅360
         courseLength = currentCourse.goal.x + currentCourse.goal.width + 20.0f;
         targetScale = 1920.0f / courseLength;
-        printfDx(
-            "courseLength=%.1f targetScale=%.3f\n",
-            courseLength,
-            targetScale
-        );
+        //printfDx(
+        //    "courseLength=%.1f targetScale=%.3f\n",
+        //    courseLength,
+        //    targetScale
+        //);
         space_cnt = 0;
         xbefor = 500;//500
         throw_cnt = 0;
@@ -772,7 +802,7 @@ void DrawCourseSelect() {
     );
 }
 void Updateexplain() {
-    printfDx("cnt = %d \n", space_cnt);
+    //printfDx("cnt = %d \n",space_cnt);
     if (input.Press(KEY_INPUT_SPACE)) {
         space_cnt++;
     }
@@ -824,7 +854,7 @@ void UpdateCoursePreviewOverview() {
 }
 void UpdateCoursePreviewZoomIn() {
     float targetX = currentCourse.start.x;//基本500
-    previewScale += (1.0f - previewScale) * 0.05f;// targetScaleに1を置いてる
+    previewScale += (1.0f - previewScale) * 0.05f;// targetScaleに1を置いてる NOW
     previewCameraX += (targetX - previewCameraX) * 0.05f;
 
     if (fabs(1.0f - previewScale) < 0.01f) {
@@ -869,7 +899,7 @@ void UpdateAiming() {
         }
     }
     if (input.Press(KEY_INPUT_RETURN)) {
-        playState = ANIME0;
+        //playState = ANIME0;
         space_cnt = 0;
     }
     if (input.Press(KEY_INPUT_BACK)) {
@@ -902,12 +932,24 @@ void UpdateWait() {
 void UpdateTHrowimg() {
     if (waitTimer < 45) {
         waitTimer++;//待つ
-        SetAnimation(&throwAnim);
+
+        if (back) {
+            SetAnimation(&throwAnim2);
+
+        }
+        else {
+            SetAnimation(&throwAnim);
+        }
     }
     else {
-        SetAnimation(&idleAnim);
+        if (back) {
+            SetAnimation(&idleAnim2);
+        }
+        else {
+            SetAnimation(&idleAnim);
+        }
     }
-    throw_cnt++;
+    //throw_cnt++;
     if (waitTimer < 10)waitTimer++;//待つ
     else {
         //printfDx("x : %f  \ny : %f \n", ball.x, ball.y);
@@ -946,8 +988,8 @@ void UpdateTHrowimg() {
                 // 左側面
                 if (xbefor < obs.x + obs.width && obs.x < xbefor && ball.vx > 0) {//ボールが右から左へ動いてる
                     if (ball.y > obs.y - 40) {//-40はいらないかも
-                        printfDx("hidari x : %f  y : %f \n", ball.x, ball.y);
-                        printfDx("hidari Xbefor : %f   \n", xbefor);
+                        //printfDx("hidari x : %f  y : %f \n", ball.x, ball.y);
+                        //printfDx("hidari Xbefor : %f   \n", xbefor);
                         ball.vx = -ball.vx;
 
                         dx = ball.vx * 0.1f;
@@ -961,7 +1003,7 @@ void UpdateTHrowimg() {
                 }
                 // 上面
                 else if (xbefor > obs.x && xbefor < obs.x + obs.width && ball.y > obs.y - 39) {//-39はいらないかも//&& boundcount 
-                    printfDx("ue    x : %f  y : %f \n", ball.x, ball.y);
+                    //printfDx("ue    x : %f  y : %f \n", ball.x, ball.y);
                     ball.vy = -ball.vy;
                     dx = ball.vx * 0.1f;
                     dy = ball.vy * 0.1f;
@@ -974,7 +1016,7 @@ void UpdateTHrowimg() {
                 // 右側面
                 else if (xbefor < obs.x + obs.width && obs.x < xbefor && ball.vx < 0) {//ボールが左から右へ動いてる
                     if (ball.y > obs.y - 39) {//-39はいらないかも
-                        printfDx("migi   x : %f  y : %f \n", ball.x, ball.y);
+                        //printfDx("migi   x : %f  y : %f \n", ball.x, ball.y);
                         ball.vx = -ball.vx;
                         dx = ball.vx * 0.1f;
                         dy = ball.vy * 0.1f;
@@ -1038,6 +1080,7 @@ void UpdateTHrowimg() {
                     i = 1;
                     currentFrame3 = 0;
                     frameTimer3 = 0;
+                    throw_cnt++;
                     playState = THROWEND;
 
                     break;
@@ -1064,7 +1107,8 @@ void UpdateTHrowimg() {
                     ball.vx = -ball.v0 * cos(angle);//初期化
                 }
                 ball.vy = ball.v0 * sin(angle);
-                printfDx("gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg");
+                //printfDx("gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg");
+                throw_cnt++;
                 playState = RESULT;
             }
             else {//池じゃないとき
@@ -1087,6 +1131,7 @@ void UpdateTHrowimg() {
                             i = 1;
                             currentFrame3 = 0;
                             frameTimer3 = 0;
+                            throw_cnt++;
                             playState = THROWEND;
                         }
                     }
@@ -1299,10 +1344,10 @@ void UpdateResult() {
         previewCameraX = player.x;//進んだx座標 - 150　を画面端に。
 
     }
-    printfDx("RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR \n");
+    //printfDx("RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR \n");
 }
 void UpAnime0() {
-    printfDx("cnt = %d \n", space_cnt);
+    //printfDx("cnt = %d \n", space_cnt);
 
     switch (space_cnt) {
     case 0://なんも押してないExplaincatAnim
@@ -1700,7 +1745,7 @@ void DrawCourse() {
             TRUE
         );
     }
-    printfDx("%f\n", previewCameraX);
+    //printfDx("%f\n", previewCameraX);
     // ゴール
     DrawGraph(
         currentCourse.goal.x - previewCameraX - ballx,
@@ -1737,14 +1782,12 @@ void DrawCourse() {
             );
         }
     }
-    if (coursenumber == 2) {
-        DrawGraph(
-            0,
-            -60,
-            TemaeImg,
-            TRUE
-        );
-    }
+    DrawGraph(
+        0,
+        -60,
+        TemaeImg,
+        TRUE
+    );
 }
 void DrawAiming() {
     int angleImg = angle0Img;
@@ -1881,27 +1924,178 @@ void DrawResulting() {
         DrawBox(0, 0, 1920, 1080, GetColor(0, 0, 0), TRUE);
         SetDrawBlendMode(DX_BLENDMODE_NOBLEND, 0);
         //文字
+        int kyori = xbefor;
+        int nokori = currentCourse.goal.x - xbefor;
+        std::string str = std::to_string(kyori);
+        std::string str1 = std::to_string(throw_cnt);
+        std::string str2 = std::to_string(nokori);
+        DrawBitmapString(
+            800,//50 + 80*4
+            100,
+            str1
+        );
+        DrawBitmapString(
+            1030,
+            100,
+            "ot"
+        );
+
+        DrawBitmapString(
+            600,
+            200,
+            "NW:"
+        );
+        DrawBitmapString(
+            810,//50 + 80*4
+            200,
+            str
+        );
+        DrawBitmapString(
+            600,
+            300,
+            "kn:"
+        );
+        DrawBitmapString(
+            810,//50 + 80*4
+            300,
+            str2
+        );
         DrawAnimetion4();//これも120待ってから
     }
 }
 void DrawRect() {
-    printfDx("Timer = % f\n", waitTimer);
+    //printfDx("Timer = % f\n",waitTimer);
     DrawAnimetion3();
 }
 void DrawData() {
     int kyori = xbefor;
+    int sinntyoku = xbefor * 100 / currentCourse.goal.x;
     std::string str = std::to_string(kyori);
+    std::string str1 = std::to_string(sinntyoku);
     DrawBitmapString(
-        50,
+        40,
         18,
-        "NOW:"
+        "NW:"
     );
     DrawBitmapString(
-        370,//50 + 80*4
+        360,//40 + 80*4
         18,
-        str.c_str()
+        str
+    );
+    DrawBitmapString(
+        690,//360 + 320
+        18,
+        str1
+    );
+    DrawBitmapString(
+        850,
+        18,
+        "%"
     );
 }
+void initscaner() {
+    int speed;
+    std::string STspeed;
+    // 1. COMポートを開く（Arduinoがつながっているポート名に変更してください。例: "COM3"）
+    // ※ "\\\\.\\COM10" のように10番以上の場合は書き方が異なります
+    hSerial = CreateFile(
+        /* L*/"\\\\.\\COM4",
+        GENERIC_READ | GENERIC_WRITE,
+        0,
+        NULL,
+        OPEN_EXISTING,
+        0,
+        NULL
+    );
+
+    if (hSerial == INVALID_HANDLE_VALUE) {
+        std::cerr << "エラー: COMポートを開けませんでした。Arduinoの接続やポート番号を確認してください。\n";
+        printfDx("rerrrrrrrrrrrrrrrrrrrow1 \n");
+        return;
+    }
+
+    // 2. 通信パラメータの設定 (BaudRate: 9600)
+    DCB dcbSerialParams = { 0 };
+    dcbSerialParams.DCBlength = sizeof(dcbSerialParams);
+
+    if (!GetCommState(hSerial, &dcbSerialParams)) {
+        std::cerr << "エラー: 通信設定の取得に失敗しました。\n";
+        printfDx("rerrrrrrrrrrrrrrrrrrrow2 \n");
+        CloseHandle(hSerial);
+        return;
+    }
+
+    dcbSerialParams.BaudRate = CBR_9600;
+    dcbSerialParams.ByteSize = 8;
+    dcbSerialParams.StopBits = ONESTOPBIT;
+    dcbSerialParams.Parity = NOPARITY;
+
+    if (!SetCommState(hSerial, &dcbSerialParams)) {
+        std::cerr << "エラー: 通信設定の適用に失敗しました。\n";
+        printfDx("rerrrrrrrrrrrrrrrrrrrow3 \n");
+        CloseHandle(hSerial);
+        return;
+    }
+
+    // 3. タイムアウト設定
+    COMMTIMEOUTS timeouts = { 0 };
+    timeouts.ReadIntervalTimeout = 1;
+    timeouts.ReadTotalTimeoutConstant = 1;
+    timeouts.ReadTotalTimeoutMultiplier = 1;
+    SetCommTimeouts(hSerial, &timeouts);
+
+    std::cout << "Arduinoからのデータ受信を開始します...\n";
+    printfDx("Arduinoからのデータ受信を開始します... \n");
+
+}
+
+void speedscaner() {
+    int speed = 0;
+    //std::string STspeed;
+
+    // 4. データ受信ループ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    char buffer[256];//受信したデータを入れる箱
+    DWORD bytesRead;//何文字受信したか 値が入る
+
+    memset(buffer, 0, sizeof(buffer));
+    if (ReadFile(hSerial, buffer, sizeof(buffer) - 1, &bytesRead, NULL)) {//どの COM ポートから読むか,受信したデータを書き込む場所,最大何文字読む,何文字読めたかを格納する場所
+        if (bytesRead > 0) {
+            //STspeed.append(buffer, bytesRead);
+            buffer[bytesRead] = '\0';
+            //std::cout << buffer; // 受信したデータをコンソールに出力
+            speed = atoi(buffer);
+            //STspeed.clear();
+
+            if (input.Press(KEY_INPUT_B)) {
+                if (throwMode) {
+                    throwMode = false;
+                    if (speed > 0) {
+                        ball.v0 = speed;
+                        printfDx("%f\n", ball.v0);
+                    }
+                }
+                else {
+                    throwMode = true;
+                }
+
+                speed0 = speed;
+                speedmax = 0;
+            }
+            if (throwMode) {
+                if (speedmax < speed) {
+                    speedmax = speed;
+                }
+
+            }
+        }
+    }
+    //CloseHandle(hSerial);　　　閉じない
+    //printfDx("%d\n",speed);
+    //ball.v0 = speed;
+}
+
+
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
     ChangeWindowMode(TRUE);
     SetGraphMode(1920, 1080, 32);
@@ -1909,9 +2103,10 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
     if (DxLib_Init() == -1) {
         return -1;
     }
+    initscaner();
     int menuBG = LoadGraph("image/background0.png");
     LoadFontJson("assets/font.json");
-    printfDx("font size=%d\n", (int)fontData.size());
+    //printfDx("font size=%d\n", (int)fontData.size());
     gameBG = LoadGraph("image/background1.png");
     easyImg = LoadGraph("image/course_easy.png");
     normalImg = LoadGraph("image/course_normal.png");
@@ -1947,8 +2142,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
     angleMinus45Img = LoadGraph("image/angleMinus45Img.png");
 
     idleAnim.imageHandle = LoadGraph("image/anim/idle.png");
+    idleAnim2.imageHandle = LoadGraph("image/anim/idle2.png");
     readyAnim.imageHandle = LoadGraph("image/anim/ready.png");
+    readyAnim2.imageHandle = LoadGraph("image/anim/ready2.png");
     throwAnim.imageHandle = LoadGraph("image/anim/throw.png");
+    throwAnim2.imageHandle = LoadGraph("image/anim/throw2.png");
     gameBGAnim0.imageHandle = LoadGraph("image/anim/gameBG.png");
     gameBGAnim1.imageHandle = LoadGraph("image/anim/gameBG1.png");
     //AnimItem0.imageHandle = LoadGraph("image/anim/rect0.png");
@@ -1974,10 +2172,14 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
     fontSheetHandle = LoadGraph("assets/images/font1.png");
 
     bgmHandle = LoadSoundMem("sound/littleidea.ogg");
+    splashHandle = LoadSoundMem("sound/littleidea.ogg");
 
     LoadAnimationXML("image/anim/idle.xml", idleAnim.frames);
+    LoadAnimationXML("image/anim/idle2.xml", idleAnim2.frames);
     LoadAnimationXML("image/anim/ready.xml", readyAnim.frames);
+    LoadAnimationXML("image/anim/ready2.xml", readyAnim2.frames);
     LoadAnimationXML("image/anim/throw.xml", throwAnim.frames);
+    LoadAnimationXML("image/anim/throw2.xml", throwAnim2.frames);
     LoadAnimationXML("image/anim/gameBG.xml", gameBGAnim0.frames);
     LoadAnimationXML("image/anim/gameBG1.xml", gameBGAnim1.frames);
     //LoadAnimationXML("image/anim/rect0.xml", AnimItem0.frames);
@@ -2003,11 +2205,20 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
     idleAnim.drawX = 400;
     idleAnim.drawY = 650;
 
+    idleAnim2.drawX = 400;
+    idleAnim2.drawY = 650;
+
     readyAnim.drawX = 370;
     readyAnim.drawY = 650;
 
+    readyAnim2.drawX = 410;
+    readyAnim2.drawY = 650;
+
     throwAnim.drawX = 400;
     throwAnim.drawY = 550;
+
+    throwAnim2.drawX = 400;
+    throwAnim2.drawY = 550;
 
     gameBGAnim0.drawX = 960;
     gameBGAnim0.drawY = 540;
@@ -2055,8 +2266,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
     WatercatAnim.drawY = 540;
 
     idleAnim.loop = true;   // 待機はループ
+    idleAnim2.loop = true;
     readyAnim.loop = false;  // 
+    readyAnim2.loop = false;  // 
     throwAnim.loop = false; // 投球は1回だけ
+    throwAnim2.loop = false; // 投球は1回だけ
     gameBGAnim0.loop = true;
     gameBGAnim1.loop = true;
     //AnimItem0.loop = true;
@@ -2081,6 +2295,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
     WatercatAnim.loop = true;
 
     throwAnim.speed = 4;
+    throwAnim2.speed = 4;
     //AnimItem0.speed = 5;
     AnimItem1_1.speed = 5;
     AnimItem2_1.speed = 5;
@@ -2240,6 +2455,14 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
             break;
 
         case GAMEPLAY:
+
+            int t1 = GetNowCount();
+
+            speedscaner();
+
+            int t2 = GetNowCount();
+
+            printfDx("time=%d\n", t2 - t1);
             if (CheckSoundMem(bgmHandle) == 0) {
                 PlaySoundMem(
                     bgmHandle,
@@ -2261,7 +2484,13 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
             case COURSE_PREVIEW:
                 UpdateCoursePreview();
                 SetAnimationBG(BGAnim);
-                SetAnimation(&idleAnim);
+
+                if (back) {
+                    SetAnimation(&idleAnim2);
+                }
+                else {
+                    SetAnimation(&idleAnim);
+                }
                 break;
 
             case COURSE_PREVIEW_ZOOMOUT:
@@ -2277,13 +2506,25 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
             case AIMING:
                 UpdateAiming();
                 SetAnimationBG(BGAnim);
-                SetAnimation(&idleAnim);
+                if (back) {
+                    SetAnimation(&idleAnim2);
+                }
+                else {
+                    SetAnimation(&idleAnim);
+                }
                 break;
 
             case WAIT_THROW:
                 // UpdateWaitThrow();
                 SetAnimationBG(BGAnim);
-                SetAnimation(&readyAnim);
+
+                if (back) {
+                    SetAnimation(&readyAnim2);
+
+                }
+                else {
+                    SetAnimation(&readyAnim);
+                }
                 UpdateWait();
                 break;
 
@@ -2302,6 +2543,12 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
                 if (lakecount) {
                     SetAnimation4(&WatercatAnim);//池に着いたなら別のねこ表示
                 }
+
+                PlaySoundMem(
+                    splashHandle,
+                    DX_PLAYTYPE_BACK
+                );
+
                 SetAnimationITEM(&SplashAnim);//普通ならこれ
                 if (lakecount) {
                     SetAnimationITEM(&SplashAnim);//池に着いたなら水しぶき表示
@@ -2600,11 +2847,12 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
             switch (playState) {
             case COURSE_SELECT:
-                helpText = "↑/↓: Select   Space : Confirm";//矢印キーで選択、Space で決定
+                helpText = "up/down: Select   Space : Confirm";//矢印キーで選択、Space で決定
                 DrawCourseSelect();
                 break;
 
             case EXPLAIN:
+                helpText = "SPACE : NEXT";
                 DrawProgressMap();
                 DrawCourse();
                 SetDrawBlendMode(DX_BLENDMODE_ALPHA, 128);
@@ -2615,22 +2863,25 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
                 break;
 
             case COURSE_PREVIEW:
+                helpText = "SPACE : NEXT";
                 DrawProgressMap();
                 DrawCoursePreview();
                 break;
 
             case COURSE_PREVIEW_ZOOMOUT:
+                helpText = "SPACE : NEXT";
                 DrawProgressMap();
                 DrawCoursePreviewOverview();
                 break;
 
             case COURSE_PREVIEW_ZOOMIN:
+                helpText = "SPACE : NEXT";
                 DrawProgressMap();
                 DrawCoursePreviewZoomIn();
                 break;
 
             case AIMING://角度選択
-                helpText = "↑/↓ : Select  ←/→ : View Course   Space : Confirm   ";
+                helpText = "up/down : Select  right/left : View Course   Space : Confirm   ";
                 DrawProgressMap();
                 DrawCourse();
                 DrawCharacter();
@@ -2639,6 +2890,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
                 break;
 
             case WAIT_THROW:
+                helpText = "THROW";
                 DrawProgressMap();
                 DrawCourse();
                 DrawCharacter();
@@ -2646,6 +2898,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
                 break;
 
             case THROW:
+                helpText = "";
                 DrawProgressMap();
                 DrawCourse();
                 DrawCharacter();
@@ -2654,8 +2907,12 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
                 break;
 
             case THROWEND:
+                helpText = "SPACE : NEXT";
                 DrawProgressMap();
-                DrawAnimetion3();
+                if (lakecount) {
+                    DrawAnimetion3();
+                }
+
                 DrawCourse();
                 if (!lakecount)Throwend();//ただの旗の描画  池に入ったらいらない
 
@@ -2664,10 +2921,12 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
                 //DrawAnimetion3();
                 DrawData();
+                DrawResulting();
 
                 break;
 
             case RESULT:
+                helpText = "SPACE : NEXT";
                 DrawProgressMap();
                 DrawCourse();
                 DrawResulting();

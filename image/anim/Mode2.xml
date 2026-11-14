@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Mode2.png">
+<SubTexture name="Mode2 Mode20000" x="0" y="0" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20001" x="1920" y="0" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20002" x="0" y="1080" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20003" x="1920" y="1080" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20004" x="0" y="2160" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20005" x="1920" y="2160" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20006" x="3840" y="0" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20007" x="3840" y="1080" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20008" x="3840" y="2160" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20009" x="0" y="3240" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20010" x="3840" y="3240" width="1920" height="1" frameX="0" frameY="-1079" frameWidth="1920" frameHeight="1080" />
+<SubTexture name="Mode2 Mode20011" x="1920" y="3240" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1080" />
+</TextureAtlas>

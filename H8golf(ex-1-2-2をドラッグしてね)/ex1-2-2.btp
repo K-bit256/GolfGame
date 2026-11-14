@@ -1,0 +1,102 @@
+[PROJECT]
+SOURCEFILE=¢ex1-2-2.c£
+MODIFY=¢2026/11/12 13:21:35£
+V_MAJOR=¢2£
+V_MINOR=¢7£
+V_RELEASE=¢1£
+V_BUILD=¢0£
+CURPOS=15
+[TARGET]
+NAME=¢H8/3048F (ExRAM, Bootloader)£
+SelExtCompile=0
+[GCC]
+InstallFolder=¢C:\ProgramData\BestTech\GCC Developer Lite\GCC\H8£
+Target=¢h8300-elf£
+OptimizeLevel=0
+TargetList.Count=0
+TargetList.0=¢h8300-elf£
+[AS]
+StartUpRoutine=¢C:\ProgramData\BestTech\GCC Developer Lite\TARGET\3048F\h8crt0.s£
+StartUpRoutineList.Count=0
+StartUpRoutineList.0=¢C:\ProgramData\BestTech\GCC Developer Lite\TARGET\3048F\h8crt0.s£
+StartUpRoutineList.1=¢C:\ProgramData\BestTech\GCC Developer Lite\TARGET\3048F\h8rom2.c£
+[LD]
+MakeMapFile=1
+ScriptFile=¢C:\ProgramData\BestTech\GCC Developer Lite\TARGET\3048F\h8ram.x£
+ScriptFileList.Count=0
+ScriptFileList.0=¢C:\ProgramData\BestTech\GCC Developer Lite\TARGET\3048F\h8rom.x£
+AddLib.Count=2
+AddLib.0=¢add3048£
+AddLib.1=¢m£
+ScriptFileList.1=¢C:\ProgramData\BestTech\GCC Developer Lite\TARGET\3048F\h8rom2.x£
+ScriptFileList.2=¢C:\ProgramData\BestTech\GCC Developer Lite\TARGET\3048F\h8ram.x£
+[DBG]
+RUNCommand=¢£
+GDBCommand=¢£
+RUNBootOption=¢-h£
+GDBBootOption=¢£
+BuildOption=¢£
+GDBInitFile=¢C:\ProgramData\BestTech\GCC Developer Lite\TARGET\3048F\gdb.ini£
+[Folder]
+IncludeFolder.Count=1
+IncludeFolder.0=¢C:\ProgramData\BestTech\GCC Developer Lite\TARGET\3048F£
+LibraryFolder.Count=1
+LibraryFolder.0=¢C:\ProgramData\BestTech\GCC Developer Lite\TARGET\3048F£
+[ETC]
+Option.Count=5
+Option.0=¢-mh£
+Option.1=¢-nostartfiles£
+Option.2=¢-fsigned-char£
+Option.3=¢-Wall£
+Option.4=¢-Wno-main -pipe£
+BinUtilOut=2
+FileSaveBeforGCC=1
+ObjCopyOption=¢£
+[FW]
+EnableBootFW=0
+NotBootDebug=1
+Silent=0
+ExtBootFile=¢($GDL)\STERM.exe£
+FWBootOpt=¢-DP ($PGENE)£
+ShutGDB=0
+[EXT_TOOL]
+FileSaveBeforCompile=1
+[EXT_TOOL0]
+Command=¢£
+Option=¢£
+Caption=¢£
+LinkExTool=0
+[EXT_TOOL1]
+Command=¢£
+Option=¢£
+Caption=¢£
+LinkExTool=0
+[EXT_TOOL2]
+Command=¢£
+Option=¢£
+Caption=¢£
+LinkExTool=0
+[EXT_Folder]
+SearchFolder.Count=0
+[EXT_DBG]
+GDBCommand=¢£
+GDBBootOption=¢£
+GDBInitFile=¢£
+MonitorFile=¢£
+[EXT_FW]
+Silent=0
+ExtBootFile=¢£
+FWBootOpt=¢£
+MonitorFile=¢£
+ShutGDB=0
+[MarkJump]
+Mark.0=-1
+Mark.1=-1
+Mark.2=-1
+Mark.3=-1
+Mark.4=-1
+Mark.5=-1
+Mark.6=-1
+Mark.7=-1
+Mark.8=-1
+Mark.9=-1

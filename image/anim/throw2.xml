@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="throw2.png">
+<SubTexture name="throw2 throw20000" x="1039" y="0" width="484" height="494" frameX="-337" frameY="-491" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="throw2 throw20001" x="331" y="0" width="420" height="499" frameX="-369" frameY="-486" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="throw2 throw20002" x="0" y="0" width="331" height="576" frameX="-394" frameY="-400" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="throw2 throw20003" x="0" y="576" width="405" height="489" frameX="-346" frameY="-476" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="throw2 throw20004" x="1010" y="576" width="497" height="462" frameX="-273" frameY="-503" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="throw2 throw20005" x="1523" y="0" width="513" height="462" frameX="-251" frameY="-503" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="throw2 throw20006" x="1523" y="462" width="479" height="457" frameX="-266" frameY="-507" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="throw2 throw20007" x="710" y="576" width="300" height="463" frameX="-367" frameY="-516" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="throw2 throw20008" x="751" y="0" width="288" height="495" frameX="-366" frameY="-513" frameWidth="1050" frameHeight="1080" />
+<SubTexture name="throw2 throw20009" x="405" y="576" width="305" height="485" frameX="-400" frameY="-511" frameWidth="1050" frameHeight="1080" />
+</TextureAtlas>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ready2.png">
+<SubTexture name="ready2 ready20000" x="1098" y="0" width="391" height="489" frameX="-56" frameY="-37" frameWidth="490" frameHeight="540" />
+<SubTexture name="ready2 ready20001" x="590" y="520" width="374" height="492" frameX="-57" frameY="-36" frameWidth="490" frameHeight="540" />
+<SubTexture name="ready2 ready20002" x="1098" y="489" width="391" height="489" frameX="-56" frameY="-37" frameWidth="490" frameHeight="540" />
+<SubTexture name="ready2 ready20003" x="378" y="0" width="399" height="494" frameX="-52" frameY="-31" frameWidth="490" frameHeight="540" />
+<SubTexture name="ready2 ready20004" x="0" y="0" width="378" height="520" frameX="-52" frameY="-5" frameWidth="490" frameHeight="540" />
+<SubTexture name="ready2 ready20005" x="777" y="0" width="321" height="494" frameX="-51" frameY="-31" frameWidth="490" frameHeight="540" />
+<SubTexture name="ready2 ready20006" x="0" y="520" width="295" height="494" frameX="-44" frameY="-31" frameWidth="490" frameHeight="540" />
+<SubTexture name="ready2 ready20007" x="295" y="520" width="295" height="494" frameX="-44" frameY="-31" frameWidth="490" frameHeight="540" />
+</TextureAtlas>
